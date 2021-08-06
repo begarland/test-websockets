@@ -9,12 +9,13 @@ const App = () => {
 
   const [socketPackage, setSocketPackage] = React.useState<
     'useWebSocket' | 'actioncable'
-  >('useWebSocket')
+  >('actioncable')
 
   return (
     <div className='App'>
       <div className='App-splash-logo'>
         <p>The socket url is: {socketLink}</p>
+        <p>The socket being used is: {socketPackage}</p>
         <button
           onClick={() =>
             setSocketPackage(
