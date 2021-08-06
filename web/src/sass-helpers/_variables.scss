@@ -1,0 +1,32 @@
+/* standard media query variables */
+$landscape-phone-and-below-max-width: 480px;
+$landscape-phone-to-portrait-tablet-max-width: 767px;
+$portrait-tablet-to-landscape-and-desktop-min-width: 768px;
+$portrait-tablet-to-landscape-and-desktop-max-width: 979px;
+$large-desktop-min-width: 1200px;
+
+/* color blind safe color palette - see: https://personal.sron.nl/~pault/ */
+$gray: #777777;
+$red: #ee3333;
+$orange: #ee7722;
+$yellow: #ffee33;
+$yellow-green: #cccc55;
+$green: #66aa55;
+$teal: #11aa99;
+$blue: #3366aa;
+$purple: #992288;
+
+$white: white;
+$black: #222222;
+
+/* fonts */
+
+$header-font: 'carbon';
+$regular-font: Arial;
+$regular-font-size: 16px;
+
+/* style guide */
+$button-fill: $blue;
+$text-color: $black;
+
+$border-radius: 4px;

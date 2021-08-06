@@ -1,0 +1,160 @@
+{
+  "_from": "react-redux-express-template-empty",
+  "_id": "react-redux-express-template-empty@3.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-Cc4U6kfa2RVuwXJBZbF7fhLDDSgZzrAlhS3otiuX1HZZJag3RxDfTSUqOfDjXKeLdWNRhovG4OoI0EzaGPD1Bw==",
+  "_location": "/react-redux-express-template-empty",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-redux-express-template-empty",
+    "name": "react-redux-express-template-empty",
+    "escapedName": "react-redux-express-template-empty",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-redux-express-template-empty/-/react-redux-express-template-empty-3.1.0.tgz",
+  "_shasum": "52e10210111f51e932b3e33138312c0357567793",
+  "_spec": "react-redux-express-template-empty",
+  "_where": "/Users/brandygarland/Documents/GitHub/test-sockets",
+  "babel": {
+    "presets": [
+      "es2015",
+      "react",
+      "stage-0"
+    ],
+    "plugins": [
+      "babel-plugin-transform-decorators-legacy"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/begarland/react-redux-express-template/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@types/enzyme": "^3.9.3",
+    "@types/enzyme-adapter-react-16": "^1.0.5",
+    "@types/history": "^4.7.9",
+    "@types/jest": "^20.0.8",
+    "@types/jquery": "^3.5.6",
+    "@types/node": "^8.10.66",
+    "@types/react": "^16.14.11",
+    "@types/react-dom": "^16.8.4",
+    "@types/react-router-redux": "^5.0.8",
+    "@types/redux-logger": "^3.0.5",
+    "@types/redux-promise-middleware": "0.0.8",
+    "@types/sinon": "^5.0.7",
+    "actioncable": "^5.2.6",
+    "axios": "0.18.1",
+    "babelify": "^7.3.0",
+    "body-parser": "^1.19.0",
+    "concurrently": "^4.1.0",
+    "connected-react-router": "^6.8.0",
+    "cross-env": "^5.2.0",
+    "date-input-polyfill": "^2.14.0",
+    "envify": "^4.1.0",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "express": "^4.17.1",
+    "express-react-views": "^0.10.5",
+    "history": "^4.9.0",
+    "inversify": "^4.13.0",
+    "inversify-express-utils": "^6.3.2",
+    "jest": "^22.4.4",
+    "jquery": "3.4.0",
+    "localenvify": "^1.0.1",
+    "moment": "2.19.3",
+    "node-sass": "6.0.0",
+    "nodemon": "^1.19.1",
+    "pg": "^7.11.0",
+    "prettier": "^2.3.0",
+    "react": "^16.8.6",
+    "react-actioncable-provider": "^2.0.0",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.1.0",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-router-redux": "^5.0.0-alpha.8",
+    "react-use-websocket": "^2.7.1",
+    "redux": "^4.0.1",
+    "redux-logger": "^3.0.6",
+    "redux-observable": "^1.1.0",
+    "redux-promise-middleware": "^4.4.2",
+    "redux-thunk": "^2.3.0",
+    "reflect-metadata": "^0.1.13",
+    "rxios": "github:begarland/rxios",
+    "rxjs": "^6.5.2",
+    "rxjs-compat": "^6.5.2",
+    "sinon": "^4.5.0",
+    "ts-jest": "^22.4.6",
+    "ts-node": "^7.0.1",
+    "tsify": "^4.0.1",
+    "tslint": "^5.17.0",
+    "tslint-plugin-prettier": "^2.3.0",
+    "tslint-react": "^4.0.0",
+    "typeorm": "^0.2.18",
+    "typescript": "^3.5.1",
+    "uglifyify": "^4.0.5",
+    "vinyl-source-stream": "^2.0.0",
+    "watchify": "^3.11.1",
+    "winston": "^2.4.4"
+  },
+  "deprecated": false,
+  "description": "some test-sockets description",
+  "devDependencies": {
+    "ansi-colors": "^3.2.4",
+    "browser-sync": "^2.26.7",
+    "browserify": "^16.2.3",
+    "browserify-css": "^0.15.0",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "node-notifier": "^5.4.0",
+    "path": "^0.12.7",
+    "redux-devtools-extension": "^2.13.8"
+  },
+  "homepage": "https://github.com/begarland/react-redux-express-template#readme",
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "transform": {
+      "\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testMatch": [
+      "**/__tests__/**/*.ts?(x)",
+      "**/?(*.)(spec|test).tsx?(x)"
+    ],
+    "moduleDirectories": [
+      "node_modules"
+    ]
+  },
+  "name": "test-sockets",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/begarland/react-redux-express-template.git"
+  },
+  "scripts": {
+    "dev": "concurrently --raw \"npm run watch-server\"  \"gulp --silent\"",
+    "lint": "tslint 'web/src/**/*.ts' --force",
+    "prod-build": "npm run production-sass; npm run production-web",
+    "production-sass": "sass --sourcemap=none web/src/main.scss:web/public/main.css",
+    "production-web": "browserify web/src/index.tsx -p tsify -g [ envify --NODE_ENV production ] -g [ uglifyify ] -o web/public/bundle.js -v",
+    "start": "ts-node server/index.ts; npm run prod-build",
+    "test": "jest --color --verbose --expand --watchAll",
+    "watch-server": "cross-env NODE_ENV=development node_modules/.bin/nodemon --exec 'concurrently --raw \"npm run lint\" \"node_modules/.bin/ts-node server/index.ts\"'"
+  },
+  "version": "0.0.0",
+  "private": true,
+  "license": "BSD"
+}

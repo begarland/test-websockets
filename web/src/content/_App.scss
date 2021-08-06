@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-splash-logo {
+  padding: 20px;
+  color: $white;
+}
+
+.header-logo {
+  width: 100px;
+  cursor: pointer;
+}
+
+.header-text {
+  font-family: $header-font;
+}

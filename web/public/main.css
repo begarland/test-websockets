@@ -1,0 +1,47 @@
+/* helpers */
+/*to generate @font-face tags for a chosen font, visit: https://www.fontsquirrel.com/tools/webfont-generator*/
+/* http://www.1001fonts.com/carbon-font.html */
+@font-face {
+  font-family: 'carbon';
+  src: url("/assets/fonts/carbon_bl-webfont.eot");
+  src: url("/assets/fonts/carbon_bl-webfont.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/carbon_bl-webfont.woff2") format("woff2"), url("/assets/fonts/carbon_bl-webfont.woff") format("woff"), url("/assets/fonts/carbon_bl-webfont.ttf") format("truetype"), url("/assets/fonts/carbon_bl-webfont.svg#carbonblack") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/* standard media query variables */
+/* color blind safe color palette - see: https://personal.sron.nl/~pault/ */
+/* fonts */
+/* style guide */
+.App {
+  text-align: center;
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.App-splash-logo {
+  padding: 20px;
+  color: white; }
+
+.header-logo {
+  width: 100px;
+  cursor: pointer; }
+
+.header-text {
+  font-family: "carbon"; }
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; }
+
+html {
+  width: 100vw; }
+
+#root {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #222222; }
+
+/*# sourceMappingURL=main.css.map */
